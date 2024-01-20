@@ -76,7 +76,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 7%;
+  padding: 8px 6%;
   border-bottom: 0.2rem solid var(--red);
   position: fixed;
   top: 0;
@@ -88,6 +88,10 @@ section {
 
 .header .logo img {
   max-width: 75px;
+  
+}
+.header img{
+    margin-right: 280px;
 }
 
 .header .navbar a {
