@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "../assets/images/logo.png";
 const Navbar = () => {
+    const searchHandl=()={
+        
+    }
   return (
    
 
@@ -26,7 +29,7 @@ const Navbar = () => {
           </div>
         </div>
         <div  className="search-form"  ref={searchRef}>
-            <input type="search" name="" id="search-box" placeholder="Search Here..." onClick={searchHandler} />
+            <input type="search" name="" id="search-box" placeholder="Search Here..." onClick={SearchHandler} />
             <label htmlFor="search-box" className="fas fa-search"></label>
         </div>
       </header>
