@@ -43,7 +43,7 @@ body {
 section {
   padding: 2rem 7%;
 }
-/*-----------Heading---------*/
+/*-----------Header---------*/
 .heading {
   text-align: center;
   color: #fff;
@@ -97,7 +97,7 @@ section {
 }
 
 .header .navbar a:hover {
-  color: #ffc107;
+  color: var(--red);
   border-bottom: 0.1rem solid #ffc107;
   padding-bottom: 0.5rem;
 }
