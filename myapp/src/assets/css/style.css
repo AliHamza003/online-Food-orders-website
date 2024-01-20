@@ -98,7 +98,7 @@ section {
 
 .header .navbar a:hover {
   color: var(--red);
-  border-bottom: 0.1rem solid #ffc107;
+  border-bottom: 0.1rem solid var(--red);
   padding-bottom: 0.5rem;
 }
 
@@ -151,7 +151,7 @@ section {
 }
 
 .header .search-form label:hover {
-  color: #ffc107;
+  color: var(--red);
 }
 
 .header .cart-items-container {
