@@ -23,8 +23,9 @@ const Navbar = () => {
             <div className="fas fa-bars" id="menu-btn"></div>
           </div>
         </div>
-        <div>
-            <input type="search" name="" id="" placeholder="Search Here"/>
+        <div  className="search-form" >
+            <input type="search" name="" id="search-box" placeholder="Search Here..." />
+            <label htmlFor="search-box"></label>
         </div>
       </header>
     </>
