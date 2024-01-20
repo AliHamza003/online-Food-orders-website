@@ -4,7 +4,7 @@ import logo from "../assets/images/logo.png";
 const Navbar = () => {
     const searchRef= useRef()
     const searchHandle=()=>{
-        
+        searchRef.current.classList.toggle("active")
     }
   return (
    
