@@ -110,7 +110,7 @@ section {
 }
 
 .header .icons div:hover {
-  color: #ffc107;
+  color: var(--red);
 }
 
 #menu-btn {
