@@ -17,6 +17,13 @@ const Navbar = ()=>{
                 <a href="#contact">Contact</a>
                 <a href="#blog">Blogs</a>
             </nav>
+
+            <div className="icons">
+                <div className="fas fa-search">
+                    <div className="fas fa-shopping-cart"></div>
+                    <div className="fas fa-bars"></div>
+                </div>
+            </div>
         </header>
         </>
     );
