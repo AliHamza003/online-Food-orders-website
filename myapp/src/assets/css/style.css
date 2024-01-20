@@ -9,7 +9,7 @@
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  transition: 0.2s linear;
+  /*transition: 0.2s linear;*/
 }
 :root{
     --red:rgb(255,0,0);
