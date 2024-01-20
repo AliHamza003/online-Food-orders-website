@@ -21,7 +21,7 @@ const Navbar = ()=>{
             <div className="icons">
                 <div className="fas fa-search">
                     <div className="fas fa-shopping-cart"></div>
-                    <div className="fas fa-bars"></div>
+                    <div className="fas fa-bars" id="menu-btn"></div>
                 </div>
             </div>
         </header>
