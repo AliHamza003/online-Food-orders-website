@@ -218,7 +218,7 @@ section {
   display: flex;
   align-items: center;
   background: linear-gradient(90deg, rgb(0 0 0 / 90%), rgb(68 68 68 / 35%)),
-    url(../images/home-img) no-repeat;
+    url(../images/home-img.png) no-repeat;
   background-size: cover;
   background-position: center;
 }

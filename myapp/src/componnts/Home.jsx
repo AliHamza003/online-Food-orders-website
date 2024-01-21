@@ -8,12 +8,13 @@ const Home = () => {
           <h3>
             fresh <span>food in the morning</span>
           </h3>
-        </div>
-        <p>
+          <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
           possimus assumenda. Nemo facilis deserunt.
         </p>
-        <a href="#" className="btn">get yours now</a>
+        <a href="#" className="btn">get yours</a>
+        </div>
+        
       </section>
     </>
   );
