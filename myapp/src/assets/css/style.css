@@ -212,7 +212,7 @@ section {
   width: 100%;
   text-align: center;
 }
-
+/*-----Home-sction-------*/
 .home {
   min-height: 100vh;
   display: flex;
@@ -224,11 +224,11 @@ section {
 }
 
 .home .content {
-  max-width: 60rem;
+  max-width: 50rem;
 }
 
 .home span {
-  color: #ffc107;
+  color: var(--red);
   text-transform: uppercase;
 }
 
