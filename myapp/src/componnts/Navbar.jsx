@@ -5,8 +5,13 @@ import { cart } from "../Data";
 
 const Navbar = () => {
     const searchRef= useRef();
+    const carRef = useRef();
     const searchHandle=()=>{
         searchRef.current.classList.toggle("active");
+    }
+    
+    const cartHandler = () =>{
+      carRef.current.classList.toggle("active");
     }
   return (
    
@@ -28,7 +33,7 @@ const Navbar = () => {
 
         <div className="icons">
           <div className="fas fa-search" onClick={searchHandle}>
-            <div className="fas fa-shopping-cart"></div>
+            <div className="fas fa-shopping-cart" onClick={cartHandler}></div>
             <div className="fas fa-bars" id="menu-btn"></div>
           </div>
         </div>
@@ -36,7 +41,7 @@ const Navbar = () => {
             <input type="search" name="" id="search-box" placeholder="Search Here..."  />
             <label htmlFor="search-box" className="fas fa-search"></label>
         </div>
-        <div className="cart-items-container">
+        <div className="cart-items-container ref={cartRef}">
         {cart.map((item, index)=>(
           <div className="cart-item" key={index}>
             <span className="fas fa-times"></span>
