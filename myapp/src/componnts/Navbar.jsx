@@ -44,7 +44,7 @@ const Navbar = () => {
 
             <div className="content">
               <h3>Cart Item 1</h3>
-              <div className="price">$15.99</div>
+              <div className="price">$15.99/-</div>
             </div>
           </div>
         ))}
