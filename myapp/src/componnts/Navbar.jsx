@@ -36,6 +36,13 @@ const Navbar = () => {
             <input type="search" name="" id="search-box" placeholder="Search Here..."  />
             <label htmlFor="search-box" className="fas fa-search"></label>
         </div>
+        <div className="cart-items-container">
+        {cart.map((item, index)=>(
+          <div className="cart-item">
+            <span className="fas fa-times"></span>
+          </div>
+        ))}
+        </div>
       </header>
     </>
   );
