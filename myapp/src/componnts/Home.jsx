@@ -8,7 +8,7 @@ const App=()=>
         <>
         
         <section className="home" id="home">
-
+            <div className="content"></div>
         </section>
         
         </>
