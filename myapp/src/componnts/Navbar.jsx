@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="icons">
           <div className="fas fa-search" onClick={searchHandler}>
             <div className="fas fa-shopping-cart" onClick={cartHandler}></div>
-            <div className="fas fa-bars" id="menu-btn"></div>
+            <div className="fas fa-bars" id="menu-btn" onClick={navbarHandler}></div>
           </div>
         </div>
         <div  className="search-form"  ref={searchRef}>
