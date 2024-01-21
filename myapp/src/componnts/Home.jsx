@@ -10,10 +10,8 @@ const Home = () => {
           </h3>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odio
-          possimus assumenda. Nemo facilis deserunt, illum consectetur fugit hic
-          possimus placeat porro doloribus nihil earum commodi sequi aliquam
-          velit rerum!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+          possimus assumenda. Nemo facilis deserunt.
         </p>
       </section>
     </>
