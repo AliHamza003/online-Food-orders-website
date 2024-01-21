@@ -41,6 +41,10 @@ const Navbar = () => {
           <div className="cart-item">
             <span className="fas fa-times"></span>
             <img src={item.img} alt="" />
+
+            <div className="content">
+              <h3>Cart Item 1</h3>
+            </div>
           </div>
         ))}
         </div>
