@@ -6,13 +6,18 @@ import { cart } from "../Data";
 const Navbar = () => {
     const searchRef= useRef();
     const cartRef= useRef();
+    const navbarRef = useRef();
     const searchHandler=()=>{
+    
         searchRef.current.classList.toggle("active");
     }
     
     const cartHandler=()=>{
       cartRef.current.classList.toggle("active");
       
+  }
+  const navbarHandler=()=>{
+    navbarRef.current.classList.toggle("active");
   }
   return (
    
@@ -22,7 +27,7 @@ const Navbar = () => {
         <a href="#" className="logo"></a>
         <img src={logo} alt=""  />
 
-        <nav className="navbar">
+        <nav className="navbar" ref={navbarRef}>
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#menu">Menu</a>
