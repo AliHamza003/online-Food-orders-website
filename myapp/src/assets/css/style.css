@@ -239,7 +239,7 @@ section {
 }
 
 .home .content p {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: lighter;
   line-height: 1.8;
   padding: 1rem 0;
@@ -267,12 +267,12 @@ section {
 }
 
 .about .row .content h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #fff;
 }
 
 .about .row .content p {
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: #ccc;
   padding: 1rem 0;
   line-height: 1.8;
