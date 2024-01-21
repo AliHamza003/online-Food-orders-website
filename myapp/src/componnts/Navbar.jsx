@@ -10,17 +10,21 @@ const Navbar = () => {
     const searchHandler=()=>{
     
         searchRef.current.classList.toggle("active");
-        cartRef.current.classList.remove("active");
-        navbarRef.current.classList.remove("active");
+        //cartRef.current.classList.remove("active");
+        //navbarRef.current.classList.remove("active");
         
     }
     
     const cartHandler=()=>{
       cartRef.current.classList.toggle("active");
+      //searchRef.current.classList.remove("active");
+      //navbarRef.current.classList.remove("active");
       
   }
   const navbarHandler=()=>{
     navbarRef.current.classList.toggle("active");
+    //cartRef.current.classList.remove("active");
+    //searchRef.current.classList.remove("active");
   }
   return (
    
