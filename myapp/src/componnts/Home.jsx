@@ -13,6 +13,7 @@ const Home = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
           possimus assumenda. Nemo facilis deserunt.
         </p>
+        <a href="#" className="btn">get yours now</a>
       </section>
     </>
   );
