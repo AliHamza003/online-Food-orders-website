@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
         <div className="cart-items-container">
         {cart.map((item, index)=>(
-          <div className="cart-item">
+          <div className="cart-item" key={index}>
             <span className="fas fa-times"></span>
             <img src={item.img} alt="" />
 
@@ -48,6 +48,8 @@ const Navbar = () => {
             </div>
           </div>
         ))}
+
+        <a href="#" className="btn">checkout now</a>
         </div>
       </header>
     </>
