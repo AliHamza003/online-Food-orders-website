@@ -7,7 +7,9 @@ const App=()=>
     return(
         <>
         
-        
+        <section className="home" id="home">
+
+        </section>
         
         </>
     );
