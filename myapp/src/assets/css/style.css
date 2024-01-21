@@ -161,7 +161,7 @@ section {
 .header .cart-items-container {
   position: absolute;
   top: 100%;
-  right: 0%;
+  right: -100%;
   height: calc(100vh - 9.5rem);
   width: 35rem;
   background: #fff;
@@ -199,13 +199,13 @@ section {
 
 .header .cart-items-container .cart-item .content h3 {
   font-size: 2rem;
-  color: #13131a;
+  color: var(--red);
   padding-bottom: 0.5rem;
 }
 
 .header .cart-items-container .cart-item .content .price {
   font-size: 1.5rem;
-  color: #ffc107;
+  color: var(--red)
 }
 
 .header .cart-items-container .btn {
