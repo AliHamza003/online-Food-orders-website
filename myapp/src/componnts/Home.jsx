@@ -8,6 +8,7 @@ const App=()=>
     return(
         <>
         <Navbar/>
+        <Home/>
         
         </>
     );
