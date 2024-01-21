@@ -6,7 +6,7 @@ const Home = () => {
       <section className="home" id="home">
         <div className="content">
           <h3>
-            fresh <span>food in the forning</span>
+            fresh <span>food in the morning</span>
           </h3>
         </div>
         <p>
