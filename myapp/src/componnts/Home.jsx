@@ -2,17 +2,18 @@ import React from "react";
 
 
 
-const App=()=>
+const Home=()=>
 {
     return(
         <>
         
         <section className="home" id="home">
             <div className="content">
-                <h3>Fresh <span>Food in the Morning</span></h3>
+                <h3>fresh <span>food in the forning</span></h3>
             </div>
         </section>
         
         </>
     );
 }
+export default Home;
