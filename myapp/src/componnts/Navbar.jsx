@@ -40,6 +40,7 @@ const Navbar = () => {
         {cart.map((item, index)=>(
           <div className="cart-item">
             <span className="fas fa-times"></span>
+            <img src={item.img} alt="" />
           </div>
         ))}
         </div>
