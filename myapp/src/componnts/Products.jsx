@@ -1,4 +1,4 @@
-import {product, products} from "../Data"
+import {product} from "../Data"
 const Products = () => {
   return (
     <>
@@ -7,15 +7,16 @@ const Products = () => {
           our <span>products</span>
         </h1>
         <div className="box-container">
-            {
-                product.map((item, index)=>(
+            {product.map((item, index)=>(
                     <div className="box">
                         <div className="icons">
                             <a href="#" className="fas fa-shoping-cart"></a>
+                            <a href="#" className="fas fa-shoping-cart"></a>
+                            <a href="#" className="fas fa-shoping-cart"></a>
                         </div>
                     </div>
-                ))
-            }
+                ))}
+            
         </div>
       </section>
     </>
