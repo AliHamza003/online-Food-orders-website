@@ -19,6 +19,9 @@ const Products = () => {
                         </div>
                         <div className="content">
                             <h3>fresh coffee</h3>
+                            <div className="stars">
+                                <i className="fas fa-star"></i>
+                            </div>
                         </div>
                     </div>
                 ))}
