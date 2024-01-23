@@ -287,7 +287,8 @@ section {
 .menu .box-container .box {
   padding: 5rem;
   text-align: center;
-  border: 0.2rem solid #ffc107;
+  border: 0.2rem solid var(--red)
+ /*#ffc107;*/
 }
 
 .menu .box-container .box img {
