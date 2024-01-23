@@ -27,7 +27,7 @@ const Review = () => {
                 <i className="fas fa-star"/>
                 <i className="fas fa-star"/>
                 <i className="fas fa-star"/>
-                <i className="fas fa-star"/>
+                <i className="fas fa-star half-alt"/>
               </div>
             </div>
           ))}
