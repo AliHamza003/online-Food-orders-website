@@ -6,6 +6,7 @@ import "../src/assets/css/style.css"
 import Home from "./componnts/Home";
 import About from "./componnts/About"
 import Menu from "./componnts/Menu";
+import Products from "./componnts/Products";
 const App = ()=>{
   return(
     <>
@@ -13,6 +14,7 @@ const App = ()=>{
     <Home/>
     <About/>
     <Menu/>
+    <Products/>
     </>
   )
 }
