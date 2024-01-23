@@ -4,7 +4,7 @@ import qoutImg from "../assets/images/quote-img.png";
 const Review = () => {
   return (
     <>
-      <section>
+      <section className="review">
         <h1 className="heading">
           sustomers's <span>review</span>
         </h1>
