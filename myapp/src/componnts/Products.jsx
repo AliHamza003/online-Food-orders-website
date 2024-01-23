@@ -1,4 +1,4 @@
-import {products} from "../Data"
+import {product, products} from "../Data"
 const Products = () => {
   return (
     <>
@@ -7,7 +7,15 @@ const Products = () => {
           our <span>products</span>
         </h1>
         <div className="box-container">
-
+            {
+                product.map((item, index)=>(
+                    <div className="box">
+                        <div className="icons">
+                            
+                        </div>
+                    </div>
+                ))
+            }
         </div>
       </section>
     </>
