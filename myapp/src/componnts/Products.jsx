@@ -14,7 +14,12 @@ const Products = () => {
                             <a href="#" className="fas fa-heart"></a>
                             <a href="#" className="fas fa-eye"></a>
                         </div>
-                        <div className="image"></div>
+                        <div className="image">
+                            <img src={item.img} alt="" srcset="" />
+                        </div>
+                        <div className="content">
+                            <h3>fresh coffee</h3>
+                        </div>
                     </div>
                 ))}
             
