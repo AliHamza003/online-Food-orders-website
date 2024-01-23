@@ -320,7 +320,7 @@ section {
 
 .products .box-container .box {
   text-align: center;
-  border: 0.2rem solid #ffc107;
+  border: 0.2rem solid var(--red);
   padding: 2rem;
 }
 
@@ -329,7 +329,7 @@ section {
   width: 5rem;
   line-height: 5rem;
   font-size: 2rem;
-  border: 0.2rem solid #ffc107;
+  border: 0.2rem solid var(--red);
   color: #fff;
   margin: 0.3rem;
 }
