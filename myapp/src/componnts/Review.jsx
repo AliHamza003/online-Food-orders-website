@@ -23,6 +23,7 @@ const Review = () => {
               </p>
               <img src={item.img} alt="" />
               <h3>Ali Hamza</h3>
+              <div className="stars"></div>
             </div>
           ))}
         </div>
