@@ -6,9 +6,10 @@ const Menu =()=>{
             <div className="box-container">
                 {
                     menu.map((item, index)=>{
-                        <div className="">
+                        <div className="box">
                             <img src={item.img} alt="" />
                         </div>
+
                     })
                 }
             </div>
