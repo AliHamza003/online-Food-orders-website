@@ -1,5 +1,5 @@
 
-import aboutimg from "../assets/images/about-img.jpeg"
+import aboutimg from "../assets/images/about-img.jpg"
 const About=()=>{
     return(
         <section className="about" id="about">
@@ -8,7 +8,7 @@ const About=()=>{
             </h1>
             <div className="row">
                 <div className="img">
-                    <img src={about-img} alt="" srcset="" />
+                    <img src={aboutimg} alt="" srcset="" />
                 </div>
             </div>
         </section>
