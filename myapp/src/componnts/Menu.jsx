@@ -7,7 +7,7 @@ const Menu =()=>{
                 {
                     menu.map((item, index)=>{
                         <div className="box">
-                            <img src={item.img} alt="" />
+                            <img src={item.img} alt="img" />
                         </div>
 
                     })
