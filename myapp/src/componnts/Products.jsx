@@ -2,7 +2,12 @@ const Products=()=>{
     return(
 
         <>
-        <section className="products" id="products"></section>
+        <section className="products" id="products">
+            <h1 className="heading">
+                
+            </h1>
+        </section>
+
         </>
     );
 
