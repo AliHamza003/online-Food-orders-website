@@ -330,7 +330,7 @@ section {
   width: 5rem;
   line-height: 5rem;
   font-size: 2rem;
-  border: 0.2rem solid var(--red);
+  border: 0.2rem solid  var(--red);
   color: #fff;
   margin: 0.3rem;
 }
@@ -358,7 +358,7 @@ section {
 
 .products .box-container .box .content .stars i {
   font-size: 1.7rem;
-  color: var(--red);
+  color:  #ffc107;
 }
 
 .products .box-container .box .content .price {
