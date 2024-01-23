@@ -86,4 +86,4 @@ const blog = [
     img: blogImage3,
   },
 ];
-export default { menu, cart, product, review, blog };
+export  { menu, cart, product, review, blog };

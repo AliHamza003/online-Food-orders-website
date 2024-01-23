@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import logo from "../assets/images/logo.png";
-import  cart  from "../Data";
+import  {cart}  from "../Data";
 
 const Navbar = () => {
     const searchRef= useRef();
