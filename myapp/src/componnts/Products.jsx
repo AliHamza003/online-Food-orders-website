@@ -14,6 +14,7 @@ const Products = () => {
                             <a href="#" className="fas fa-heart"></a>
                             <a href="#" className="fas fa-eye"></a>
                         </div>
+                        <div className="image"></div>
                     </div>
                 ))}
             
