@@ -336,7 +336,7 @@ section {
 }
 
 .products .box-container .box .icons a:hover {
-  background: #ffc107;
+  background: var(--red);
 }
 
 .products .box-container .box .image {
