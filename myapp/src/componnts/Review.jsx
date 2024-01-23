@@ -4,7 +4,9 @@ const Review=()=>{
     return(
         <>
         <section >
-            <h1 className="heading"></h1>
+            <h1 className="heading">
+                sustomers's <span>review</span>
+            </h1>
         </section>
         </>
     );
