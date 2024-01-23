@@ -1,5 +1,5 @@
 
-import about-img from "../assets/images/about-img.jpeg"
+import aboutimg from "../assets/images/about-img.jpeg"
 const About=()=>{
     return(
         <section className="about" id="about">
