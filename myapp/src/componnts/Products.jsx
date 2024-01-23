@@ -1,3 +1,4 @@
+import {products} from "../Data"
 const Products = () => {
   return (
     <>
@@ -5,7 +6,9 @@ const Products = () => {
         <h1 className="heading">
           our <span>products</span>
         </h1>
-        <div className="box-container"></div>
+        <div className="box-container">
+
+        </div>
       </section>
     </>
   );
