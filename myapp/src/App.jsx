@@ -7,6 +7,7 @@ import Home from "./componnts/Home";
 import About from "./componnts/About"
 import Menu from "./componnts/Menu";
 import Products from "./componnts/Products";
+import Review from "./componnts/Review";
 const App = ()=>{
   return(
     <>
@@ -15,6 +16,7 @@ const App = ()=>{
     <About/>
     <Menu/>
     <Products/>
+    <Review/>
     </>
   )
 }
