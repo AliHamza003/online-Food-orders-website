@@ -11,7 +11,7 @@ const Products = () => {
                 product.map((item, index)=>(
                     <div className="box">
                         <div className="icons">
-                            
+                            <a href="#" className="fas fa-shoping-cart"></a>
                         </div>
                     </div>
                 ))
