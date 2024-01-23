@@ -14,11 +14,16 @@ const About = () => {
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
             corporis nesciunt eligendi laborum alias odio officiis, ipsam
-            veritatis
-            animi eveniet consequatur totam esse officia blanditiis
+            veritatis animi eveniet consequatur totam esse officia blanditiis
             qui saepe corrupti assumenda repellat?
           </p>
         </div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
+          corporis nesciunt eligendi laborum alias odio officiis, ipsam
+          veritatis animi eveniet consequatur totam esse officia blanditiis qui
+          saepe corrupti assumenda repellat?
+        </p>
       </div>
     </section>
   );
