@@ -23,9 +23,10 @@ const About = () => {
           veritatis animi eveniet consequatur totam esse officia blanditiis qui
           saepe corrupti assumenda repellat?
         </p>
+        <a href="#" className="btn">learn more</a>
         </div>
         
-        <a href="#" className="btn">learn more</a>
+       
       </div>
     </section>
   );
