@@ -7,6 +7,9 @@ const Review=()=>{
             <h1 className="heading">
                 sustomers's <span>review</span>
             </h1>
+            <div className="box-container">
+                
+            </div>
         </section>
         </>
     );
