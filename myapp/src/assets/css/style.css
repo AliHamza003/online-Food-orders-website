@@ -373,7 +373,7 @@ section {
 }
 
 .review .box-container .box {
-  border: 0.2rem solid #ffc107;
+  border: 0.2rem solid var(--red);
   text-align: center;
   padding: 3rem 2rem;
 }
