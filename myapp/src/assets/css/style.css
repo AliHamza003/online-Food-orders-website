@@ -358,7 +358,7 @@ section {
 
 .products .box-container .box .content .stars i {
   font-size: 1.7rem;
-  color: #ffc107;
+  color: var(--red);
 }
 
 .products .box-container .box .content .price {
