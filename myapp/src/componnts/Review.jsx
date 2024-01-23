@@ -21,6 +21,7 @@ const Review = () => {
                 beatae!
                 Provident aperiam?
               </p>
+              <img src={item.img} alt="" />
             </div>
           ))}
         </div>
