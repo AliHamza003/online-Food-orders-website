@@ -11,8 +11,8 @@ const Products = () => {
                     <div className="box">
                         <div className="icons">
                             <a href="#" className="fas fa-shoping-cart"></a>
-                            <a href="#" className="fas fa-shoping-cart"></a>
-                            <a href="#" className="fas fa-shoping-cart"></a>
+                            <a href="#" className="fas fa-heart"></a>
+                            <a href="#" className="fas fa-eye"></a>
                         </div>
                     </div>
                 ))}
