@@ -6,7 +6,7 @@ const About = () => {
         <span>about</span> us
       </h1>
       <div className="row">
-        <div className="img">
+        <div className="image">
           <img src={aboutimg} alt="" />
         </div>
         <div className="content">
@@ -17,13 +17,14 @@ const About = () => {
             veritatis animi eveniet consequatur totam esse officia blanditiis
             qui saepe corrupti assumenda repellat?
           </p>
-        </div>
-        <p>
+          <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
           corporis nesciunt eligendi laborum alias odio officiis, ipsam
           veritatis animi eveniet consequatur totam esse officia blanditiis qui
           saepe corrupti assumenda repellat?
         </p>
+        </div>
+        
         <a href="#" className="btn">learn more</a>
       </div>
     </section>
