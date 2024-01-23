@@ -10,7 +10,7 @@ const Menu =()=>{
                             <img src={item.img} alt="img" />
                             <h3>tast and healthy</h3>
                             <div className="price">
-                                $15.99<span>-/</span> 
+                                $15.99<span>20.99</span> 
                             </div>
                         </div>
 
