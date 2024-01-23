@@ -1,4 +1,4 @@
-import  menu  from "../Data";
+import  {menu}  from "../Data";
 const Menu =()=>{
     return(
         <section className="menu" id="menu">
