@@ -1,4 +1,5 @@
 import { review } from "../Data";
+import qoutImg from "../assets/images/quote-img.png"
 
 const Review=()=>{
     return(
@@ -10,7 +11,9 @@ const Review=()=>{
             <div className="box-container">
                 {
                     review.map((item, index)=>(
-                        <div className="box"></div>
+                        <div className="box">
+                            <img src={qoutImg} alt=""  />
+                        </div>
                     ))
                 }
             </div>
