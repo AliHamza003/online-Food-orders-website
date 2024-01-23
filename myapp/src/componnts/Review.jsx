@@ -8,7 +8,11 @@ const Review=()=>{
                 sustomers's <span>review</span>
             </h1>
             <div className="box-container">
-                
+                {
+                    review.map((item, index)=>(
+                        <div className="box"></div>
+                    ))
+                }
             </div>
         </section>
         </>
