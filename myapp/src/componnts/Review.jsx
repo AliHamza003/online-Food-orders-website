@@ -21,13 +21,13 @@ const Review = () => {
                 beatae!
                 Provident aperiam?
               </p>
-              <img src={item.img} alt="" />
+              <img src={item.img} alt="" className="user"/>
               <h3>Ali Hamza</h3>
               <div className="stars">
                 <i className="fas fa-star"/>
                 <i className="fas fa-star"/>
                 <i className="fas fa-star"/>
-                <i className="fas fa-star half-alt"/>
+                <i className="fas fa-star-half-alt"/>
               </div>
             </div>
           ))}
