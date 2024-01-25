@@ -1,6 +1,11 @@
-const Contact ()=>{
+const Contact =()=>{
     return(
+        <>
+        <section className="contact" id="contact">
 
+</section>
+        </>
+        
     );
 }
 
