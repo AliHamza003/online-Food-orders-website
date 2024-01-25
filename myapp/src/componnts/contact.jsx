@@ -21,6 +21,18 @@ const Contact = () => {
                     <input type="text" placeholder="name" />
                 </span>
             </div>
+
+            <div className="inputBox">
+                <span className="fas fa-envelope">
+                    <input type="email" placeholder="email" />
+                </span>
+            </div>
+
+             <div className="inputBox">
+                <span className="fas fa-phone">
+                    <input type="number" placeholder="number" />
+                </span>
+            </div>
           </form>
         </div>
       </section>
