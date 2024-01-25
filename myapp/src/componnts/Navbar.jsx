@@ -41,7 +41,7 @@ const Navbar = () => {
           <a href="#products">Products</a>
           <a href="#review">Review</a>
           <a href="#contact">Contact</a>
-          <a href="#blog">Blogs</a>
+        
         </nav>
 
         <div className="icons">
