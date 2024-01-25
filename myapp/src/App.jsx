@@ -8,6 +8,7 @@ import About from "./componnts/About"
 import Menu from "./componnts/Menu";
 import Products from "./componnts/Products";
 import Review from "./componnts/Review";
+import Contact from "./componnts/contact";
 const App = ()=>{
   return(
     <>
@@ -17,6 +18,7 @@ const App = ()=>{
     <Menu/>
     <Products/>
     <Review/>
+    <Contact/>
     </>
   )
 }
