@@ -378,6 +378,7 @@ section {
   padding: 3rem 2rem;
 }
 
+
 .review .box-container .box p {
   font-size: 1.5rem;
   line-height: 1.8;
@@ -400,7 +401,7 @@ section {
 
 .review .box-container .box .stars i {
   font-size: 1.5rem;
-  color: var(--red);
+  color: #ffc107
 }
 
 .contact .row {
