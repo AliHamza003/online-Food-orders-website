@@ -6,7 +6,7 @@ const Review = () => {
     <>
       <section className="review">
         <h1 className="heading">
-          sustomers's <span>review</span>
+          customers <span>review</span>
         </h1>
         <div className="box-container">
           {review.map((item, index) => (
