@@ -12,6 +12,16 @@ const Contact = () => {
             allowfullscreen=""
             loading="lazy"
           ></iframe>
+          <form action="">
+            <h3>
+                get in touch
+            </h3>
+            <div className="inputBox">
+                <span className="fas fa-user">
+                    <input type="text" placeholder="name" />
+                </span>
+            </div>
+          </form>
         </div>
       </section>
     </>
